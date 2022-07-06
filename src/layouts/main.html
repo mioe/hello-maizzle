@@ -36,7 +36,19 @@
     </div>
   </if>
   <div role="article" aria-roledescription="email" aria-label="{{{ page.title || '' }}}" lang="{{ page.language || 'en' }}">
-    <block name="template"></block>
+    <table class="w-full">
+      <tr>
+        <td align="center">
+          <table class="w-[600px] sm:w-full">
+            <tr>
+              <td>
+                <block name="template"></block>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
   </div>
 </body>
 </html>
