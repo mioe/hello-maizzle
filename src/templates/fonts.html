@@ -1,6 +1,6 @@
 ---
 title: "Demo email by mioe"
-preheader: "Testing features for email clients"
+preheader: "Testing fonts for email clients"
 ---
 
 <extends src="src/layouts/main.html">
@@ -16,6 +16,34 @@ preheader: "Testing features for email clients"
       </tr>
     </table>
     <!-- /header -->
+
+    <!-- popular fonts -->
+    <table class="w-full">
+      <tr>
+        <td>
+          <h2 class="font-sans">
+            Popular fonts
+          </h2>
+        </td>
+      </tr>
+      <tr>
+        <td class="pb-[20px]">
+          <component
+            src="src/components/v-symbols.html"
+            font="Roboto"
+          ></component>
+        </td>
+      </tr>
+      <tr>
+        <td class="pb-[20px]">
+          <component
+            src="src/components/v-symbols.html"
+            font="Helvetica"
+          ></component>
+        </td>
+      </tr>
+    </table>
+    <!-- /popular fonts -->
 
     <!-- safe fonts (sans-serif) -->
     <table class="w-full">
