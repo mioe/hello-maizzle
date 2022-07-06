@@ -2,13 +2,85 @@
   <tr>
     <td>
       <h3
-        class="mt-0 mb-[4px]"
+        class="mb-[8px]"
         style="font-family: {{ font }}"
       >
         <b class="text-[#ff762d]">#</b> {{ font }} (input/output)
       </h3>
     </td>
   </tr>
+</table>
+
+<table class="w-full mb-[8px]">
+  <tr>
+    <td>
+      <h4
+        class="font-sans text-[#ff762d]"
+      >
+        Supported clients
+      </h2>
+    </td>
+  </tr>
+  <!-- native -->
+  <tr>
+    <td>
+      <h5
+        class="font-sans text-[#ff762d]"
+      >
+        Native
+      </h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table class="w-full font-sans">
+        <tr>
+          <th class="text-left">
+            Apple Mail
+          </th>
+          <th class="text-left">
+            GmailMobile
+          </th>
+        </tr>
+        <tr>
+          <td>
+            {{ appleMail }}
+          </td>
+          <td>
+            {{ gmailMobile }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- /native -->
+  <!-- native -->
+  <tr>
+    <td>
+      <h5
+        class="font-sans text-[#ff762d]"
+      >
+        Web
+      </h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table class="w-full font-sans">
+        <tr>
+          <th class="text-left">
+            Gmail
+          </th>
+        </tr>
+        <tr>
+          <td>
+            {{ gmail }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- /native -->
 </table>
 
 <table class="w-full">

@@ -6,7 +6,7 @@ preheader: "Testing fonts for email clients"
 <extends src="src/layouts/main.html">
   <block name="template">
     <!-- header -->
-    <table class="w-full">
+    <table class="w-full mt-[16px] mb-[16px]">
       <tr>
         <td>
           <h1 class="font-sans">
@@ -20,7 +20,7 @@ preheader: "Testing fonts for email clients"
     <!-- popular fonts -->
     <table class="w-full">
       <tr>
-        <td>
+        <td class="pb-[8px]">
           <h2 class="font-sans">
             Popular fonts
           </h2>
@@ -31,6 +31,9 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Roboto"
+            appleMail="-"
+            gmail="+"
+            gmailMobile="+"
           ></component>
         </td>
       </tr>
@@ -39,7 +42,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Helvetica"
-          ></component>
+            appleMail="+"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
     </table>
@@ -48,7 +54,7 @@ preheader: "Testing fonts for email clients"
     <!-- safe fonts (sans-serif) -->
     <table class="w-full">
       <tr>
-        <td>
+        <td class="pb-[8px]">
           <h2 class="font-sans">
             Safe Fonts (sans-serif)
           </h2>
@@ -59,7 +65,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Arial"
-          ></component>
+            appleMail="+"
+            gmail="+"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -67,7 +76,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Arial Black"
-          ></component>
+            appleMail="+"
+            gmail="+"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -75,7 +87,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Tahoma"
-          ></component>
+            appleMail="+"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -83,7 +98,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Trebuchet MS"
-          ></component>
+            appleMail="+"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -91,7 +109,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Verdana"
-          ></component>
+            appleMail="+"
+            gmail="+"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
     </table>
@@ -100,7 +121,7 @@ preheader: "Testing fonts for email clients"
     <!-- safe fonts (serif) -->
     <table class="w-full">
       <tr>
-        <td>
+        <td class="pb-[8px]">
           <h2 class="font-sans">
             Safe Fonts (serif)
           </h2>
@@ -111,7 +132,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Courier"
-          ></component>
+            appleMail="+ (only eng)"
+            gmail="+ (only eng)"
+            gmailMobile="+ (only eng)"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -119,7 +143,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Courier New"
-          ></component>
+            appleMail="+"
+            gmail="+"
+            gmailMobile="+ (only eng)"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -127,6 +154,9 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Georgia"
+            appleMail="+"
+            gmail="+"
+            gmailMobile="+"
           ></component>
         </td>
       </tr>
@@ -135,7 +165,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Times"
-          ></component>
+            appleMail="+"
+            gmail="+"
+            gmailMobile="+"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -143,7 +176,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Times New Roman"
-          ></component>
+            appleMail="+"
+            gmail="+"
+            gmailMobile="+"
+            ></component>
         </td>
       </tr>
     </table>
@@ -152,7 +188,7 @@ preheader: "Testing fonts for email clients"
     <!-- custom fonts -->
     <table class="w-full">
       <tr>
-        <td>
+        <td class="pb-[8px]">
           <h2 class="font-sans">
             Custom fonts
           </h2>
@@ -163,7 +199,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Journal Sans New"
-          ></component>
+            appleMail="-"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
     </table>
@@ -172,7 +211,7 @@ preheader: "Testing fonts for email clients"
     <!-- google fonts -->
     <table class="w-full">
       <tr>
-        <td>
+        <td class="pb-[8px]">
           <h2 class="font-sans">
             Google fonts
           </h2>
@@ -183,7 +222,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Montserrat"
-          ></component>
+            appleMail="+"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -191,7 +233,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Open Sans"
-          ></component>
+            appleMail="+"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
       <tr>
@@ -199,7 +244,10 @@ preheader: "Testing fonts for email clients"
           <component
             src="src/components/v-symbols.html"
             font="Rubik"
-          ></component>
+            appleMail="+"
+            gmail="-"
+            gmailMobile="-"
+            ></component>
         </td>
       </tr>
     </table>
