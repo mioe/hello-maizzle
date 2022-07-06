@@ -6,7 +6,7 @@ preheader: "Testing fonts for email clients"
 <extends src="src/layouts/main.html">
   <block name="template">
     <!-- header -->
-    <table>
+    <table class="w-full">
       <tr>
         <td>
           <h1 class="font-sans">
@@ -18,15 +18,20 @@ preheader: "Testing fonts for email clients"
     <!-- /header -->
 
     <!-- safe fonts (sans-serif) -->
-    <table>
+    <table class="w-full">
       <tr>
         <td>
-          <h2 style="font-family: Arial">
-            Arial
+          <h2 class="font-sans">
+            Safe Fonts (sans-serif)
           </h2>
-          <p style="font-family: Arial">
-            ACB
-          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <component
+            src="src/components/v-symbols.html"
+            font="Arial"
+          ></component>
         </td>
       </tr>
     </table>
